@@ -20,7 +20,7 @@ import java.util.Map;
            M_in[node] = w_node + Sum(M_out[child]) for all child of node
     3. Return max(M_out[r], M_in[r])
 */
-public class Tree {
+public class Mwist {
     private Map<Node, Integer> M_in = new HashMap<>();
     private Map<Node, Integer> M_out = new HashMap<>();
 

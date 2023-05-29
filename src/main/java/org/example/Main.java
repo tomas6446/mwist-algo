@@ -14,7 +14,7 @@ public class Main {
         r.children.add(b);
         a.children.add(c);
 
-        Tree tree = new Tree();
-        System.out.println("Max weight independent set: " + tree.maxWeightIndependentSet(r));
+        Mwist mwist = new Mwist();
+        System.out.println("Max weight independent set: " + mwist.maxWeightIndependentSet(r));
     }
 }
