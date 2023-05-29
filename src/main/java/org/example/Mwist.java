@@ -21,8 +21,8 @@ import java.util.Map;
     3. Return max(M_out[r], M_in[r])
 */
 public class Mwist {
-    private Map<Node, Integer> M_in = new HashMap<>();
-    private Map<Node, Integer> M_out = new HashMap<>();
+    private final Map<Node, Integer> M_in = new HashMap<>();
+    private final Map<Node, Integer> M_out = new HashMap<>();
 
     public int maxWeightIndependentSet(Node root) {
         computeWeights(root);
